@@ -14,7 +14,7 @@ const Passworldcontrol = document.getElementById("Passworld");
 const onlogin = (eve)=>{
     eve.preventDefault();
     cl("submitted")
-    eve.target.reset();
+    
     setTimeout(()=>{
         let emailval = emailcontrol.value;
         let Passworldval = Passworldcontrol.value;
@@ -26,6 +26,7 @@ const onlogin = (eve)=>{
           
         }
     })
+    eve.target.reset()
  
     cl(isemailexist)
     if(isemailexist){
