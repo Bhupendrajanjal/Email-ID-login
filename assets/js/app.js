@@ -29,8 +29,8 @@ const onlogin = (eve)=>{
  
     cl(isemailexist)
     if(isemailexist){
-        //chech passworld
-        if(isemailexist.Passworld=== Passworldval){
+        //check passworld
+        if(isemailexist.Passworld === Passworldval){
             cl("submitted")
            redirectToDashboard()
           
