@@ -22,3 +22,19 @@ table th,td{
 td{
     border: 2px solid black;
 }
+
+/* Passworld icon */
+.icon{
+    position: relative;
+}
+.icon i{
+    position: absolute;
+    color: red;
+   top: -41px;
+   left: 180px;
+   cursor: pointer;
+}
+
+.icon i:active{
+    
+}
